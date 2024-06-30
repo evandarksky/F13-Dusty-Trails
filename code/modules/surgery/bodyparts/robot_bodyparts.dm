@@ -22,6 +22,7 @@
 
 	brute_reduction = 2
 	burn_reduction = 1
+	body_damage_coeff = 0.2
 
 	light_brute_msg = ROBOTIC_LIGHT_BRUTE_MSG
 	medium_brute_msg = ROBOTIC_MEDIUM_BRUTE_MSG
@@ -43,6 +44,7 @@
 
 	brute_reduction = 2
 	burn_reduction = 1
+	body_damage_coeff = 0.2
 
 	light_brute_msg = ROBOTIC_LIGHT_BRUTE_MSG
 	medium_brute_msg = ROBOTIC_MEDIUM_BRUTE_MSG
@@ -64,6 +66,7 @@
 
 	brute_reduction = 2
 	burn_reduction = 1
+	body_damage_coeff = 0.2
 
 	light_brute_msg = ROBOTIC_LIGHT_BRUTE_MSG
 	medium_brute_msg = ROBOTIC_MEDIUM_BRUTE_MSG
@@ -85,6 +88,7 @@
 
 	brute_reduction = 2
 	burn_reduction = 1
+	body_damage_coeff = 0.2
 
 	light_brute_msg = ROBOTIC_LIGHT_BRUTE_MSG
 	medium_brute_msg = ROBOTIC_MEDIUM_BRUTE_MSG
@@ -241,7 +245,8 @@
 	icon = 'icons/mob/augmentation/surplus_augments.dmi'
 	brute_reduction = 0
 	burn_reduction = 0
-	max_damage = 20
+	max_damage = 35
+	body_damage_coeff = 0.25
 
 /obj/item/bodypart/r_arm/robot/surplus
 	name = "surplus prosthetic right arm"
@@ -249,7 +254,8 @@
 	icon = 'icons/mob/augmentation/surplus_augments.dmi'
 	brute_reduction = 0
 	burn_reduction = 0
-	max_damage = 20
+	max_damage = 35
+	body_damage_coeff = 0.25
 
 /obj/item/bodypart/l_leg/robot/surplus
 	name = "surplus prosthetic left leg"
@@ -257,7 +263,8 @@
 	icon = 'icons/mob/augmentation/surplus_augments.dmi'
 	brute_reduction = 0
 	burn_reduction = 0
-	max_damage = 20
+	max_damage = 35
+	body_damage_coeff = 0.25
 
 /obj/item/bodypart/r_leg/robot/surplus
 	name = "surplus prosthetic right leg"
@@ -265,7 +272,8 @@
 	icon = 'icons/mob/augmentation/surplus_augments.dmi'
 	brute_reduction = 0
 	burn_reduction = 0
-	max_damage = 20
+	max_damage = 35
+	body_damage_coeff = 0.25
 
 // Upgraded Surplus lims - Better then robotic lims
 /obj/item/bodypart/l_arm/robot/surplus_upgraded
