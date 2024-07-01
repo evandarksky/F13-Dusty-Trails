@@ -433,7 +433,8 @@ Mayor
 		/obj/item/cultivator = 1,
 		/obj/item/reagent_containers/glass/bucket = 1,
 		/obj/item/storage/bag/plants/portaseeder = 1,
-		/obj/item/gun/ballistic/revolver/widowmaker = 1,
+		/obj/item/gun/ballistic/shotgun/trench = 1,
+		/obj/item/ammo_box/shotgun/buck = 1,
 		/obj/item/ammo_box/shotgun/buck = 1,
 		/obj/item/book/granter/trait/trekking = 1
 	) // Basically wastelander settler with a shotgun.
@@ -448,6 +449,17 @@ Mayor
 		/obj/item/clothing/neck/apron/labor/forge/khan = 1,
 		/obj/item/storage/belt/utility/artisan/full = 1,
 		/obj/item/clothing/glasses/welding = 1,
+		/obj/item/stack/sheet/metal/fifty = 1,
+		/obj/item/stack/sheet/mineral/sandstone/twenty = 1,
+		/obj/item/stack/sheet/mineral/titanium/fifteen = 1,
+		/obj/item/stack/sheet/mineral/wood = 10,
+		/obj/item/lighter = 1,
+		/obj/item/reagent_containers/glass/beaker = 1,
+		/obj/item/screwdriver = 1,
+		/obj/item/crowbar = 1,
+		/obj/item/wrench = 1,
+		/obj/item/wirecutters = 1,
+		/obj/item/stack/crafting/metalparts = 5,
 		/obj/item/book/granter/trait/techno = 1
 	) // No weapons, you should be crafting them or using your null rod.
 
@@ -490,6 +502,7 @@ Mayor
 		/obj/item/reagent_containers/glass/bottle/epinephrine = 1,
 		/obj/item/storage/backpack/duffelbag/med/surgery = 1,
 		/obj/item/storage/firstaid/ancient = 1,
+		/obj/item/nullrod/rosary = 1,
 		/obj/item/book/granter/trait/midsurgery
 	) // Wasteland doctor with a null rod.
 
@@ -523,6 +536,7 @@ Mayor
 	backpack_contents = list(
 		/obj/item/nullrod = 1,
 		/obj/item/clothing/suit/f13/hubologist = 1,
+		/obj/item/stack/f13Cash/caps/onezerozerozero = 1,
 		/obj/item/stack/f13Cash/caps/onezerozerozero = 1,
 		/obj/item/book/granter/trait/medical = 1 // You have some form of training to make those rad devices they use in lore.
 	) // Mostly for flavor. Hubology is heavily focused on getting caps (snrk) so you at least start with alot more.

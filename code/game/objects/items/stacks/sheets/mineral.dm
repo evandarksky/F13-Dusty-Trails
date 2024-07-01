@@ -55,6 +55,9 @@ GLOBAL_LIST_INIT(sandstone_recipes, list ( \
 	. = ..()
 	. += GLOB.sandstone_recipes
 
+/obj/item/stack/sheet/mineral/sandstone/twenty
+	amount = 20
+
 /obj/item/stack/sheet/mineral/sandstone/thirty
 	amount = 30
 
@@ -303,6 +306,8 @@ GLOBAL_LIST_INIT(titanium_recipes, list ( \
 /obj/item/stack/sheet/mineral/titanium/fifty
 	amount = 50
 
+/obj/item/stack/sheet/mineral/titanium/fifteen
+	amount = 15
 
 /*
  * Plastitanium
